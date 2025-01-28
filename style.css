@@ -1,0 +1,49 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url("backgrnd1.jpg");
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+}  
+
+.navbar {
+    background-color:#444 ;
+    padding: 15px;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    color: azure;
+
+}
+/* .backgrnd1 {
+    width: 100%;
+    height:89%;
+} */
+/* .navlink{
+} */
+
+.navbar a {
+    color: azure;
+    padding: 10px;
+    border-style: none;
+}
+
+#about{
+    color:azure;
+}
+
+.hero{
+    text-align:center;
+    color:white;
+    font-size: 20px;
+    background-color: rgba(67, 68, 68,0.5 );
+    height: 180px;
+    padding:10px;
+
+
+
+}
