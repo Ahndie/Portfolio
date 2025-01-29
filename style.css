@@ -6,7 +6,7 @@ body {
     background-position:center;
     position:relative;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: fit-content;
    
 }  
 
@@ -32,9 +32,6 @@ body {
     border-style: none;
 }
 
-#about{
-    color:azure;
-}
 
 .hero{
     text-align:center;
@@ -44,6 +41,49 @@ body {
     height: 180px;
     padding:10px;
 
+}
+
+#about{
+    color:azure;
+    text-align: center;
+    font-size: 20px;
+
+    
+}
+
+#projects{
+    color: aliceblue;
 
 
+}
+
+#contact{
+    color: grey;
+
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.contact button {
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact button:hover {
+    background: #0097a7;
 }
